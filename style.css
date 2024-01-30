@@ -1,0 +1,193 @@
+:root {
+  --primary-color: #fed001;
+  --dark-color: #2a2a2a;
+  --light-color: #fafafa;
+}
+
+html {
+  font: 400 62.5% "Inter", sans-serif;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8;
+  text-decoration: none;
+  padding: 1.4rem 4.2rem;
+  display: inline-block;
+  color: inherit;
+}
+
+.wrapperContainer-dark {
+  background-color: var(--dark-color);
+  color: #fafafa;
+}
+
+.wrapperContainer-light {
+  background-color: var(--light-color);
+}
+
+.wrapperContainer-dark2 {
+  background-color: #003464;
+  color: var(--light-color);
+}
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+}
+
+.section_title {
+  padding: 7rem 0;
+  text-align: center;
+  margin:0;
+}
+
+.section_btn{
+  margin:7rem 0;  
+}
+.section_btn:hover{
+  background-color: #cc9c00;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.header_nav a {
+  padding: 0.75em 1.15rem;
+  border: solid 0.1rem;
+  text-decoration: none;
+}
+
+.header_nav a:hover {
+  background-color: black;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 0.6rem;
+  list-style-type: none; /*Tira os bullets das li*/
+}
+
+nav a {
+  color: inherit;
+}
+
+.wrapperContainer-hero {
+  background-image: linear-gradient(white, rgb(246, 246, 26));
+}
+
+.heroBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.hero_title {
+  margin-bottom: 4rem;
+}
+
+.cursos {
+  text-align: center;
+}
+
+.cursosContainer {
+  display: flex;
+  text-align: left;
+  gap: 2rem;
+}
+
+.curso_card {
+  flex: 1;
+}
+
+.curso_card h3 {
+  font-size: 2.4rem;
+}
+
+.curso_card p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.curso_card img {
+  display: block;
+  width: 100%;
+}
+
+.curso_card_container {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  border-top: transparent;
+}
+
+.curso_h3:hover{
+  color: green;
+}
+
+.escola{
+  display:flex;
+  gap: 6rem;
+}
+
+.escola h2{
+  font-size: 3.2rem;
+  margin-top: 6rem;
+}
+
+.escola p{
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: rgba(245, 245, 245, 0.863);
+}
+
+.address_info {
+ text-align: right;
+ padding: 1.6rem;
+ font: normal 400 1.8rem 'Inter', 'sans-serif';
+ margin: 3rem 0;
+}
+
+.footer{
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 4.5rem;
+}
+
+.footer a{
+  color: #fed001;
+  font-size: 2.8rem;
+}
+
+.footer a:hover{
+  color: aqua;
+}
